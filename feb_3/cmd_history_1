@@ -1,0 +1,501 @@
+  176  sudo nginx -s reload
+  177  nginx
+  178  sudo nginx
+  179  sudo nano index.html 
+  180  clear
+  181  cd
+  182  ls
+  183  cd Documents/
+  184  ls
+  185  cd git
+  186  ls
+  187  cd fade-game/
+  188  ls
+  189  ll
+  190  open index.html 
+  191  ls
+  192  mkdir img
+  193  ls
+  194  git init
+  195  ls
+  196  git status
+  197  git add
+  198  git add .
+  199  ls
+  200  git status
+  201  git commit -m "init"
+  202  git status
+  203  git push
+  204  git remote add fade-game https://github.com/mcfun/fade-game.git
+  205  git push -u origin master
+  206  git push
+  207  git status
+  208  git push origin master
+  209  sudo git push origin master
+  210  git push
+  211  git push fade-game
+  212  git status
+  213  ls
+  214  git pull
+  215  git remote add https://github.com/mcfun/fade-game
+  216  git remote add origin https://github.com/mcfun/fade-game
+  217  git push
+  218  git pull
+  219  git pull origin master
+  220  ls
+  221  ls
+  222  git status
+  223  git push
+  224  git status
+  225  git add .
+  226  git status
+  227  git commit -m "added input lib"
+  228  git push
+  229  git status
+  230  git status
+  231  git pull
+  232  ls
+  233  cd img
+  234  ls
+  235  git pull origin master
+  236  git status
+  237  git add.
+  238  git add .
+  239  git commit -m "more neat"
+  240  ls
+  241  cd ..
+  242  git add .
+  243  git status
+  244  git commit -m "more neat"
+  245  git push
+  246  git status
+  247  cd 
+  248  cd /
+  249  cd /usr/var/www
+  250  ls
+  251  cd ..
+  252  cd /var
+  253  ls
+  254  cd ..
+  255  cd /usr
+  256  ls
+  257  cd www
+  258  ls
+  259  cd html
+  260  finder .
+  261  open .
+  262  ls
+  263  rm resources.js 
+  264  sudo rm resources.js 
+  265  ls
+  266  git status
+  267  cd ..
+  268  cd 
+  269  ls
+  270  cd Documents/
+  271  ls
+  272  cd git
+  273  ls
+  274  cd fade-game/
+  275  ls
+  276  rm resources.js 
+  277  ls
+  278  git status
+  279  git add .
+  280  git status
+  281  git rm resources.js
+  282  ls
+  283  git status
+  284  git commit -m 'working with images/removing flz'
+  285  git status
+  286  git push
+  287  ps
+  288  ps
+  289  wd
+  290  wd
+  291  wd
+  292  pis
+  293  ls
+  294  cd 
+  295  ls
+  296  ll
+  297  cd 
+  298  ls
+  299  ll
+  300  clear
+  301  cd /
+  302  ls
+  303  cd Volumes/
+  304  ls
+  305  cd KINGSTON/
+  306  ls
+  307  ll
+  308  cd Xmind M
+  309  cd Xmind\ Maps
+  310  ls
+  311  ll
+  312  open Web\ Developer.xmind 
+  313  wow
+  314  ls
+  315  cd /
+  316  ls
+  317  ll
+  318  cd /usr/var
+  319  ls
+  320  cd /var
+  321  ls
+  322  cd ..
+  323  cd us
+  324  cd usr
+  325  ls
+  326  cd www
+  327  ls
+  328  cd html/
+  329  ls
+  330  open index.html 
+  331  nginx
+  332  sudo nginx
+  333  man nginx
+  334  ls
+  335  nano index.html 
+  336  nginx relaod
+  337  nginx reload
+  338  nginx -?
+  339  nginx -s reload
+  340  sudo nginx -s reload
+  341  ls
+  342  nano main.js 
+  343  clear
+  344  pwd
+  345  history
+  346  clear
+  347  ls
+  348  sudo vim index.html 
+  349  sudo vim main.js 
+  350  sudo vim main.js 
+  351  sudo vim main.js 
+  352  subl main.js 
+  353  sudo subl main.js 
+  354  open main.js
+  355  cd /
+  356  npm install -g learnyounode
+  357  learnyounode
+  358  ls
+  359  cd Users/
+  360  ls
+  361  cd ianmccunn/
+  362  ls
+  363  cd Documents/
+  364  ls
+  365  mkdir NodeSchool
+  366  ls
+  367  ll
+  368  cd NodeSchool/
+  369  mkdir leanryounode
+  370  ll
+  371  rm -d leanryounode/
+  372  ls
+  373  mkdir learnyounode
+  374  ls
+  375  cd learnyounode/
+  376  mkdir helloWorld
+  377  cd helloWorld/
+  378  clear
+  379  learnyounode
+  380  node program.js
+  381  sudo nano program.js
+  382  node program.js 
+  383  learnyounode verify program.js 
+  384  nano program.js 
+  385  sudo nano program.js 
+  386  sudo nano program.js 
+  387  learnyounode verify program.js 
+  388  learnyounode 
+  389  cd ..
+  390  ls
+  391  mkdir babySteps
+  392  cd babySteps/
+  393  sudo nano program.js
+  394  node program.js 1 2 3
+  395  sudo nano program.js 
+  396  sudo nano program.js 
+  397  learnyounode verify program.js 
+  398  sudo nano program.js 
+  399  learnyounode verify program.js 
+  400  learnyounode 
+  401  clear
+  402  ll
+  403  cd /
+  404  ll
+  405  cd Volumes/
+  406  ll
+  407  cd KINGSTON/
+  408  ll
+  409  cd PDFs/
+  410  ll
+  411  cd Programming/
+  412  ll
+  413  cd ll -f
+  414  cd ll -d
+  415  ll -d
+  416  ls -d
+  417  ls
+  418  ll
+  419  ls
+  420  man ls
+  421  ls -d
+  422  cd JS\ Critical\ Sources/
+  423  ls
+  424  open _4_JavaScript.The.Definitive.Guide.6th.Edition.Apr.2011.pdf 
+  425  open _1_JavaScript\ Web\ Applications.pdf 
+  426  open _3_Eloquent_JavaScript.pdf 
+  427  which node && which npm
+  428  curl
+  429  hombrew python
+  430  brew python
+  431  brew install python
+  432  gcc
+  433  curl -0 http://nodejs.org/dist/v0.10.35/node-v0.10.35.tar.gz
+  434  curl -O  http://nodejs.org/dist/v0.10.35/node-v0.10.35.tar.gz
+  435  curl -O  http://nodejs.org/dist/v0.10.35/node-v0.10.35.tar.gz
+  436  curl -O  http://nodejs.org/dist/v0.10.35/node-v0.10.35.tar.gz
+  437  ls
+  438  tar xvf node-v0.10.35.tar.gz 
+  439  clear
+  440  ll
+  441  ls
+  442  curl -O  http://nodejs.org/dist/v0.10.35/node-v0.10.35.tar.gz
+  443  ls
+  444  rm node-v0.10.35
+  445  man rm
+  446  man rm
+  447  rm -f node-v0.10.35
+  448  rm -d node-v0.10.35
+  449  rm -dR node-v0.10.35
+  450  ll
+  451  ls
+  452  tar xvf node-v0.10.35.tar.gz 
+  453  ls
+  454  cd node-v0.10.35
+  455  ./configure --prefix=$HOME/.node
+  456  make && make install
+  457  echo "export PATH=$HOME/.node/bin:
+  458  CLEAR
+  459  echo "export PATH=$HOME/.node/bin:$PATH" >> ~/.bash_profile
+  460  echo "export NODE_PATH=$HOME/.node/lib/node_modules" >> ~/.bash_profile
+  461  source ~/.bash_profile
+  462  node --version
+  463  node
+  464  node
+  465  clear
+  466  ls
+  467  ll
+  468  ls
+  469  cd ~
+  470  ll
+  471  ls
+  472  cd Documents/
+  473  ls
+  474  which node
+  475  cd /usr/bin
+  476  ls
+  477  cd /
+  478  ls
+  479  ll
+  480  cd /bin
+  481  ls
+  482  cd ..
+  483  cd /usr/var
+  484  cd /var/bin
+  485  ll
+  486  ls
+  487  $PATH
+  488  cd /usr/local/bin
+  489  ls
+  490  clear
+  491  which node
+  492  cd /Users/ianmccunn/
+  493  ll
+  494  nano .node
+  495  npm
+  496  brew update
+  497  brew install mongodb
+  498  brew search zsh
+  499  brew install zsh
+  500  exit
+  501  brew zsh
+  502  zsh
+  503  zsh
+  504  brew uninstall
+  505  brew uninstall zsh
+  506  zsh
+  507  clear
+  508  learnyounode
+  509  npm
+  510  npm update -g npm
+  511  npm install -g grunt-cli
+  512  npm install -g mocha
+  513  ls
+  514  ll
+  515  sudo rm node-v0.10.35.tar.gz 
+  516  ll
+  517  clear
+  518  cd ..
+  519  ls
+  520  cd ian
+  521  cd ianmccunn/
+  522  l
+  523  ls
+  524  ll
+  525  cd Documents/
+  526  ls
+  527  cd Code\ Fellows/
+  528  ls
+  529  cd notes
+  530  ls
+  531  rm JS\ Lecture.rtf 
+  532  ls
+  533  cd ~
+  534  ls
+  535  cd github/
+  536  ls
+  537  ls
+  538  cd ..
+  539  cd Documents/
+  540  ls
+  541  cd git/
+  542  ls
+  543  mkdir cf-cd
+  544  cd cf-cd/
+  545  ls
+  546  touch README.md
+  547  ls
+  548  sudo nano README.md 
+  549  git init
+  550  git status
+  551  git add README.md 
+  552  git status
+  553  git commit -a "init"
+  554  git commit "init
+"
+  555  git commit -g 'init'
+  556  git commit 'init'
+  557  git status
+  558  git commit -m "init"
+  559  git status
+  560  git push origin master
+  561  git config
+  562  git status
+  563  git remote add origin https://github.com/mcfun/cf-cd.git
+  564  git push origin -u origin master
+  565  git status
+  566  sudo git push origin -u origin master
+  567  cd ..
+  568  ls
+  569  cd cf-cd/
+  570  ls
+  571  git push
+  572  git push origin master
+  573  mkdir lib
+  574  ls
+  575  sudo nano index.js
+  576  ls
+  577  cd lib
+  578  sudo nano hello.js
+  579  sudo nano hello2.js
+  580  nano ind
+  581  ls
+  582  cd ..
+  583  ls
+  584  nano index.js 
+  585  node index.js
+  586  ls
+  587  cd lib
+  588  ls
+  589  nano hello2.js 
+  590  sudo nano hello2.js
+  591  ls
+  592  cd ..
+  593  git status
+  594  git add index.js lib/
+  595  ls
+  596  git status
+  597  node index.js 
+  598  sudo nano index.js 
+  599  node index.js 
+  600  sudo nano index.js 
+  601  node index.js 
+  602  git status
+  603  git add index.js 
+  604  git status
+  605  git commit
+  606  git commit -m "basic export/require"
+  607  git push origin master
+  608  which mocha
+  609  mkdir feb_2
+  610  ls
+  611  mv index.js feb_2/
+  612  ls
+  613  mv lib feb_2/
+  614  cd feb_2/
+  615  ls
+  616  mocha
+  617  cd ..
+  618  ls
+  619  git statuys
+  620  git status
+  621  git add feb_2/
+  622  git commit -m "organize"
+  623  git status
+  624  git commit -a
+  625  ls
+  626  git status
+  627  git push origin master
+  628  mocha
+  629  npm remove -g mocha
+  630  npm install -g mocha
+  631  mocha
+  632  git status
+  633  npm list -g --depth=0
+  634  mocha
+  635  npm list
+  636  npm list -g
+  637  cd feb_2/
+  638  ls
+  639  node index.js 
+  640  npm install chai
+  641  ls
+  642  cd node_modules/
+  643  ls
+  644  cd chai
+  645  ls
+  646  cd ..
+  647  cd .
+  648  cd..
+  649  ls
+  650  cd ..
+  651  ls
+  652  mkdir tests
+  653  cd tests
+  654  ls
+  655  sudo nano helloTests.js
+  656  ls
+  657  cd ..
+  658  ls
+  659  cp tests test
+  660  cd tests
+  661  ls
+  662  sudo nano helloTests.js 
+  663  mocha
+  664  pwd
+  665  ls
+  666  cd ..
+  667  ls
+  668  mv tests test
+  669  mocha
+  670  ls
+  671  cd ..
+  672  ls
+  673  cd feb_2/
+  674  ls
+  675  history >> cmd_history_1
