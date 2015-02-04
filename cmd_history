@@ -1,0 +1,501 @@
+  631  ls
+  632  cd feb_2/
+  633  ls
+  634  vim index.js 
+  635  cd ../..
+  636  ls
+  637  cd cfa-test-mod-pat/
+  638  ls
+  639  sudo vim index.js 
+  640  ls
+  641  cd lib/
+  642  ls
+  643  cd ..
+  644  ls
+  645  cd ..
+  646  ls
+  647  cd cf-cd
+  648  ls
+  649  cd feb_2/
+  650  ls
+  651  cd lib
+  652  ls
+  653  sudo vim hello
+  654  sudo vim hello.js 
+  655  sudo vim hello2.js 
+  656  cd ../..
+  657  ls
+  658  cd ..
+  659  cd cfa-test-mod-pat/lib
+  660  ls
+  661  vim greet.js 
+  662  cd ..
+  663  ls
+  664  sudo vim index.js 
+  665  ls
+  666  node index.js
+  667  vim index.js 
+  668  sudo vim index.js 
+  669  ls
+  670  node index.js 
+  671  git status
+  672  git add README.md 
+  673  git add lib/.
+  674  ls
+  675  git add test/.
+  676  git status
+  677  ls
+  678  node index.js 'wow' 'neat' 'cool'
+  679  git commit -m 'initial setup'
+  680  git status
+  681  git add index.js 
+  682  ls
+  683  git status
+  684  git commit -m 'added index'
+  685  git status
+  686  history
+  687  git remote add origin https://github.com/mcfun/cfa-test-mod-pat.git
+  688  ls
+  689  git push origin master
+  690  ls
+  691  ls
+  692  git branch 'working_branch'
+  693  git checkout 'working_branch'
+  694  git branch
+  695  mocha
+  696  cd ..
+  697  ls
+  698  cd cfa-test-mod-pat/
+  699  ls
+  700  cd test
+  701  ls
+  702  sudo vim greetTest.js
+  703  ls
+  704  sudo vim greetTests.js 
+  705  ls
+  706  cd ..
+  707  ls
+  708  mocha
+  709  cd test
+  710  ls
+  711  sudo vim greetTests.js 
+  712  ls
+  713  cd ..
+  714  mocha
+  715  node index.js 
+  716  sudo vim
+  717  sudo vim index.js 
+  718  node index.js 
+  719  node index.js 'wow
+'
+  720  node index.js 
+  721  sudo vim index.js 
+  722  node
+  723  ls
+  724  sudo vim index.js 
+  725  mocha
+  726  node index.js 'mom' 'dad'
+  727  sudo vim index.js 
+  728  ls
+  729  node index.js 'wow' 'neat'
+  730  sudo vim index.js 
+  731  node index.js 
+  732  node index.js 'wow' 'bob' 'nancy'
+  733  sudo vim index.js 
+  734  node index.js 
+  735  node index.js 'wow' 'neat' 'bob'
+  736  sudo vim index.js 
+  737  cd lib
+  738  ls
+  739  sudo vim greet.js 
+  740  cd ..
+  741  sudo vim index.js 
+  742  ls
+  743  cd test
+  744  ls
+  745  cd ..
+  746  cd lib
+  747  ls
+  748  sudo vim greet.js 
+  749  ls
+  750  cd ..
+  751  ls
+  752  cd test
+  753  ls
+  754  sudo vim greetTests.js 
+  755  cd ..
+  756  ls
+  757  sudo vim index.js 
+  758  node index.js
+  759  node index.js 'ian' 'bob' 'richard'
+  760  node index.js 3 4 5
+  761  cd ..
+  762  ls
+  763  cd cfa-test-mod-pat/
+  764  ls
+  765  cd test
+  766  ls
+  767  sudo vim greetTests.js 
+  768  cd ..
+  769  mocha
+  770  cd test
+  771  ls
+  772  sudo vim greetTests.js 
+  773  cd ..
+  774  ls
+  775  mocha
+  776  ls
+  777  cd test
+  778  sudo vim greetTests.js 
+  779  node
+  780  ls
+  781  sudo vim greetTests.js 
+  782  cd ..
+  783  mocha
+  784  cd test
+  785  ls
+  786  sudo vim greetTests.js 
+  787  ls
+  788  cd ..
+  789  ls
+  790  mocha
+  791  cd lib
+  792  ls
+  793  sudo vim greet.js 
+  794  cd ..
+  795  node index.js 'ian'
+  796  node index.js 'bob' 'ian'
+  797  cd lib
+  798  sudo vim greet.js 
+  799  cd ..
+  800  node index.js 'bob' 'ian'
+  801  node index.js
+  802  node index.js
+  803  sudo vim lib/greet.js 
+  804  ls
+  805  node index.js 
+  806  node index.js 'bo'
+  807  sudo vim lib/greet.js 
+  808  node
+  809  cd lib
+  810  ls
+  811  cd ..
+  812  sudo vim index.js 
+  813  ls
+  814  cd lib
+  815  sudo vim greet.js 
+  816  cd ..
+  817  ls
+  818  node index.js 
+  819  node index.js 'ian' 'bob'
+  820  cd ..
+  821  cd cfa-test-mod-pat/
+  822  sudo vim index.js 
+  823  cd lib
+  824  ls
+  825  sudo vim greet.js 
+  826  node
+  827  sudo vim greet.js 
+  828  cd ..
+  829  ls
+  830  node index.js 'ian'
+  831  node index.js 'ian' 'bob' 'nancy'
+  832  node index.js 'ian' 3 'nancy'
+  833  cd ..
+  834  ls
+  835  cd cfa-test-mod-pat/
+  836  ls
+  837  cd lib
+  838  ls
+  839  sudo vim greet.js 
+  840  cd ..
+  841  ls
+  842  cd test
+  843  cd ..
+  844  ls
+  845  cd lib
+  846  ls
+  847  ls
+  848  sudo vim greet.js 
+  849  cd ..
+  850  ls
+  851  cd test
+  852  ls
+  853  sudo vim greetTests.js 
+  854  cd ..
+  855  node index.js
+  856  node index.js 'bob' 'nancy' 'd'
+  857  sudo vim index.js 
+  858  ls
+  859  cd lib
+  860  ls
+  861  sudo vim greet
+  862  sudo vim greet.js 
+  863  cd ..
+  864  sudo vim index.js 
+  865  cd lib
+  866  ls
+  867  sudo vim greet.js 
+  868  cd ..
+  869  sudo vim index.js 
+  870  cd lib
+  871  sudo vim greet.js 
+  872  cd ..
+  873  mocha
+  874  node index.js 'bob' 'ian' '4'
+  875  sudo vim index.js 
+  876  cd lib
+  877  sudo vim greet.js 
+  878  cd ..
+  879  node index.js 'bob' 'ian' '4'
+  880  cd lib
+  881  sudo vim greet.js 
+  882  node index.js 'bob' 'ian' 4
+  883  node index.js 'bob' 'ian' '4'
+  884  cd ..
+  885  ls
+  886  node index.js 'bob' 'ian' 4
+  887  node index.js 'bob' 'ian' 4 5 'nancy'
+  888  ls
+  889  cd node_modules/
+  890  ls
+  891  cd ..
+  892  ls
+  893  cd test
+  894  ls
+  895  sudo vim greetTests.js 
+  896  cd ..
+  897  ls
+  898  cd lib
+  899  sudo vim greet.js 
+  900  cd ..
+  901  node index.js 'bob' 4 'ian' 'sam' 'jack'
+  902  mocha
+  903  ls
+  904  sudo vim lib/greet.js 
+  905  cd test
+  906  ls
+  907  cd greetTests.js 
+  908  sudo vim greetTests.js 
+  909  cd ..
+  910  mocha
+  911  cd test
+  912  ls
+  913  sudo vim greetTests.js 
+  914  vim greetTests.js 
+  915  pwd
+  916  man chown
+  917  chown -R ianmccunn /Users/ianmccunn/
+  918  sudo chown -R ianmccunn /Users/ianmccunn/
+  919  vim greetTests.js 
+  920  cd ..
+  921  ls
+  922  node index.js 'bob' 'richard' 'ian' 4 5
+  923  vim index.js 
+  924  cd lib
+  925  vim greet.js 
+  926   cd..
+  927  ls
+  928  cd ..
+  929  ls
+  930  git status
+  931  git branch
+  932  ls
+  933  git status
+  934  git add index.js 
+  935  git status
+  936  git add lib/.
+  937  git add test/.
+  938  git status
+  939  ls
+  940  git commit -m 'draft 1'
+  941  git status
+  942  git branch
+  943  git push origin master
+  944  git branch
+  945  ls
+  946  git checkout master
+  947  git branch
+  948  git status
+  949  git status
+  950  git checkout 
+  951  git status
+  952  git checkout working_branch
+  953  git branch
+  954  git status
+  955  git status
+  956  git branch
+  957  git status
+  958  git push origin working_branch
+  959  git status
+  960  git branch
+  961  git checkout master
+  962  ls
+  963  node index.js
+  964  node index.js 'bob'
+  965  git checkout working_branch
+  966  clear
+  967  ls
+  968  cd ..
+  969  ls
+  970  cd cf-cd/
+  971  ls
+  972  mkdir feb_3
+  973  cd ..
+  974  ls
+  975  cd cfa-test-mod-pat/
+  976  git log
+  977  node --version
+  978  clear
+  979  ls
+  980  cd ..
+  981  ls
+  982  ls
+  983  cd cf-cd/
+  984  ls
+  985  rm feb_3/
+  986  rm -d feb_3/
+  987  ls
+  988  cp -r feb_2/ feb_3
+  989  ls
+  990  cd feb_3/
+  991  ls
+  992  vim index.js 
+  993  mocha
+  994  cd test
+  995  ls
+  996  vim hello2Tests.js 
+  997  cd ..
+  998  vim index.js 
+  999  cd lib
+ 1000  vim hello.js 
+ 1001  cd ..
+ 1002  cd test
+ 1003  vim helloTests.js 
+ 1004  cd ..
+ 1005  mocha
+ 1006  vim index.js 
+ 1007  node index.js 
+ 1008  vim index.js 
+ 1009  node index.js 
+ 1010  node index.js 'Ian'
+ 1011  cd test
+ 1012  vim helloTests.js 
+ 1013  vim appTest.js
+ 1014  cd ..
+ 1015  mocha
+ 1016  cd test
+ 1017  vim appTest.js 
+ 1018  cd ..
+ 1019  mocha
+ 1020  cd test
+ 1021  ls
+ 1022  vim appTest.js 
+ 1023  cd ..
+ 1024  vim index.js 
+ 1025  cd test
+ 1026  ls
+ 1027  vim appTest.js 
+ 1028  vim appTest.js 
+ 1029  cd ..
+ 1030  vim index.js 
+ 1031  chmod +x index.js
+ 1032  ./index.js 
+ 1033  ./index.js 'Ian'
+ 1034  man chmod
+ 1035  vim index.js 
+ 1036  cd ~
+ 1037  touch .vimrc
+ 1038  vim .vimrc
+ 1039  ls
+ 1040  cd Documents/
+ 1041  ls
+ 1042  cd git
+ 1043  ls
+ 1044  cd cf-cd
+ 1045  ls
+ 1046  cd feg_3
+ 1047  cd feb_3
+ 1048  ls
+ 1049  node index.js 
+ 1050  vim index.js 
+ 1051  npm init
+ 1052  ls
+ 1053  vim package.json 
+ 1054  npm install --save-dev mocha
+ 1055  vim package.json 
+ 1056  npm install --save-dev chai
+ 1057  vim package.json 
+ 1058  tree
+ 1059  brew install tree
+ 1060  tree-L 1 node_modules/
+ 1061  tree -L 1 node_modules/
+ 1062  npm test
+ 1063  npm
+ 1064  npm ll
+ 1065  ls
+ 1066  cd node_modules/
+ 1067  ls
+ 1068  cd chai/
+ 1069  ls
+ 1070  vim package.json 
+ 1071  npm search chai
+ 1072  ls
+ 1073  vim package.json 
+ 1074  vim package.json 
+ 1075  vim package.json 
+ 1076  cd ..
+ 1077  cd ..
+ 1078  ls
+ 1079  cd node_modules/
+ 1080  ls
+ 1081  cd mocha
+ 1082  ls
+ 1083  vim package.json 
+ 1084  cd ..
+ 1085  ls
+ 1086  cd ..
+ 1087  ls
+ 1088  npm install --save-dev grunt
+ 1089  npm install -g grunt-cli
+ 1090  npm install --save-dev grunt-cli
+ 1091  ls
+ 1092  vim Gruntfile.js
+ 1093  npm install --save-dev grunt-contrib-jshint
+ 1094  vim Gruntfile.js 
+ 1095  grunt jshint:dev
+ 1096  vim Gruntfile.js 
+ 1097  grunt jshint:dev
+ 1098  vim lib/hello2.js 
+ 1099  grunt jshint:dev
+ 1100  ls
+ 1101  vim Gruntfile.js 
+ 1102  npm install grunt-simple-mocha --save-dev
+ 1103  vim Gruntfile.js 
+ 1104  grunt simplemocha
+ 1105  vim Gruntfile.js 
+ 1106  grunt test
+ 1107  vim Gruntfile.js 
+ 1108  grunt
+ 1109  vim Gruntfile.js 
+ 1110  grunt
+ 1111  vim package.json 
+ 1112  vim package.json 
+ 1113  npm test
+ 1114  git status
+ 1115  cd ..
+ 1116  git status
+ 1117  git add feb_3/
+ 1118  git status
+ 1119  cd feb_3/
+ 1120  ls
+ 1121  git rm node_modules/
+ 1122  git rm -r node_modules/
+ 1123  git status
+ 1124  git rm --cached node_modules/
+ 1125  git rm --cached -r node_modules/
+ 1126  git status
+ 1127  cd ..
+ 1128  git commit -m 'feb 3 notes'
+ 1129  git push origin master
+ 1130  history >> cmd_history
