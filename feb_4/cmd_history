@@ -1,0 +1,500 @@
+  390  sudo nano helloTests.js 
+  391  sudo nano hello2Tests.js
+  392  mocha
+  393  cd .
+  394  cd ..
+  395  mocha
+  396  ls
+  397  cd test
+  398  ls
+  399  nano helloTests.js 
+  400  cd ..
+  401  ls
+  402  cd lib
+  403  ls
+  404  cd tests
+  405  ls
+  406  sudo nano hello2.js 
+  407  cd ..
+  408  ls
+  409  mocha
+  410  cd test
+  411  ls
+  412  sudo nano hello2Tests.js 
+  413  cd ..
+  414  ls
+  415  mocha
+  416  cd ..
+  417  ls
+  418  git commit -m "adding test w/ mocha and chai"
+  419  git status
+  420  git add
+  421  git add .
+  422  git commit -m "adding tests with mocha and chai"
+  423  git status
+  424  ls
+  425  cd feb_2/
+  426  ls
+  427  sudo vim index.js 
+  428  node index.js 
+  429  node index.js 1 2 3
+  430  git status
+  431  git add index.js 
+  432  git commit -m 'using argv'
+  433  git push origin master
+  434  git rm
+  435  git rm node_modules/
+  436  git rm node_modules/.
+  437  git rm node_modules/. -r
+  438  git status
+  439  git reset HEAD
+  440  git status
+  441  git checkout --
+  442  git status
+  443  git stash
+  444  git status
+  445  ls
+  446  node index.js 
+  447  mocha
+  448  cd ..
+  449  ls
+  450  git status
+  451  cd feb_2/
+  452  git ignore node_modules/.
+  453  git --help
+  454  git rm --cached node_modules/.
+  455  git status
+  456  git rm --cached node_modules/. -r
+  457  ls
+  458  git status
+  459  git commit -m 'removing tracking of node modules'
+  460  ls
+  461  git status
+  462  git push origin master
+  463  ls
+  464  cd .
+  465  cd ..
+  466  ls
+  467  cd ..
+  468  ls
+  469  mkdir cfa-test-mod-pat
+  470  cd cfa-test-mod-pat/
+  471  ls
+  472  git init
+  473  sudo vim README.md
+  474  ls
+  475  mkdir lib
+  476  mkdir test
+  477  ls
+  478  install chai
+  479  npm install chai
+  480  ls
+  481  cd ..
+  482  ls
+  483  cd cf-cd/
+  484  ls
+  485  cd feb_2/
+  486  ls
+  487  cd lib
+  488  ls
+  489  nano hello.js 
+  490  vim hello2
+  491  ls
+  492  vim hello2.js 
+  493  cd ..
+  494  cd ..
+  495  ls
+  496  cd ..
+  497  ls
+  498  cd cfa-test-mod-pat/
+  499  ls
+  500  exit
+  501  lc
+  502  ls
+  503  cd Documents/git
+  504  ls
+  505  cd cfa-test-mod-pat/
+  506  ls
+  507  cd ..
+  508  cd cf-cd/
+  509  ls
+  510  cd feb_3/
+  511  ls
+  512  vim package.json 
+  513  vim Gruntfile.js 
+  514  npm test
+  515  grunt Gruntfile.js 
+  516  vim package.json 
+  517  mocha
+  518  cd test
+  519  ls
+  520  vim appTest.js 
+  521  cd ..
+  522  mocha
+  523  npm jshint
+  524  cd ..
+  525  cd feb_3
+  526  ls
+  527  node index.js
+  528  node index.js 'wow'
+  529  vim Gruntfile.js 
+  530  grunt
+  531  ls
+  532  cd node_modules/
+  533  ls
+  534  cd grunt-contrib-jshint/
+  535  ls
+  536  cd node_modules/
+  537  ls
+  538  cd ..
+  539  vim package.json 
+  540  ls
+  541  cd ../..
+  542  ls
+  543  vim cmd_history_1 
+  544  ls
+  545  vim package.json 
+  546  vim Gruntfile.js 
+  547  which node
+  548  which node | cd
+  549  cd
+  550  cd $(which node)
+  551  cd /
+  552  which node
+  553  ls
+  554  cd bin
+  555  ls
+  556  cd ..
+  557  ls
+  558  cd var
+  559  ls
+  560  cd ..
+  561  cd usr
+  562  ls
+  563  cd local
+  564  ls
+  565  cd bin
+  566  ls
+  567  cd node
+  568  ls
+  569  cd ..
+  570  cd ..
+  571  ls
+  572  cd bin
+  573  ls
+  574  which node
+  575  cd
+  576  ls
+  577  cd node-v0.10.35/
+  578  ls
+  579  cd lib
+  580  ls
+  581  vim stream.js 
+  582  cd ..
+  583  cd src
+  584  ls
+  585  vim node.h
+  586  vim node.cc
+  587  vim node.cc
+  588  cd ..
+  589  ls
+  590  cd deps
+  591  ls
+  592  cd http_parser/
+  593  ls
+  594  cd ..
+  595  ls
+  596  cd openssl/
+  597  ls
+  598  cd openssl
+  599  ls
+  600  cd ..
+  601  ls
+  602  cd ..
+  603  ls
+  604  cd ../..
+  605  ls
+  606  cd Documents/
+  607  cd git/
+  608  ls
+  609  cd cfa-test-mod-pat/
+  610  ls
+  611  cd ..
+  612  ls
+  613  cd cf-cd/
+  614  ls
+  615  cd feb_3
+  616  ls
+  617  vim cmd_history_1 
+  618  vim cmd_history_1 
+  619  cd ..
+  620  ls
+  621  cd .
+  622  ls
+  623  cd ,,
+  624  ls
+  625  cd ..
+  626  ls
+  627  cd cfa-test-mod-pat/
+  628  ls
+  629  node index.js
+  630  node index.js 'ian'
+  631  node index.js 'ian' 'wow'
+  632  git status
+  633  npm init
+  634  npm install --save-dev chai
+  635  vim package.json 
+  636  npm remove --save-dev chai
+  637  grep package.json 
+  638  curl package.json 
+  639  man grep
+  640  echo package.json 
+  641  cat package.json 
+  642  npm install --save-dev chai
+  643  cat package.json 
+  644  npm test
+  645  mocha
+  646  ls
+  647  cd test
+  648  ls
+  649  vim greetTests.js 
+  650  vim greetTests.js 
+  651  cd ..
+  652  ls
+  653  npm install --save-dev grunt grunt-cli
+  654  npm install -g grunt-cli
+  655  ls
+  656  npm install
+  657  vim package.json 
+  658  npm install
+  659  cd node_modules/
+  660  ls
+  661  npm install --save-dev grunt-contrib-jshint
+  662  ls
+  663  cd ..
+  664  ls
+  665  ls
+  666  vim Gruntfile.js
+  667  grunt
+  668  vim Gruntfile.js 
+  669  git status
+  670  git branch
+  671  git commit -m 'adding package.json and gruntfile'
+  672  git add package.json 
+  673  git add Gruntfile.js 
+  674  git add test/greetTests.js 
+  675  git status
+  676  git commit -m 'adding package.json and gruntfile'
+  677  npm install --save-dev grunt-contrib-watch
+  678  vim Gruntfile.js 
+  679  vim Gruntfile.js 
+  680  ll
+  681  ll -a
+  682  ls -a
+  683  git status
+  684  vim .jshintrc
+  685  ls
+  686  git status
+  687  git add .jshintrc 
+  688  git status
+  689  grunt test
+  690  vim Gruntfile.js 
+  691  npm install --save-dev grunt-simple-mocha
+  692  grunt test
+  693  vim index.js 
+  694  vim lib/greet.js 
+  695  grunt
+  696  grunt test
+  697  vim Gruntfile.js 
+  698  grunt
+  699  ls
+  700  ls -a
+  701  vim .jshintrc 
+  702  rm .jshintrc 
+  703  ls
+  704  vim .jshintrc
+  705  vim .jshintrc
+  706  ls
+  707  vim .jshintrc 
+  708  grunt
+  709  vim Grunt
+  710  vim Gruntfile.js 
+  711  git status
+  712  git add .jshintrc 
+  713  git add Gruntfile.js 
+  714  git status
+  715  git add index.js 
+  716  git add lib/greet.js 
+  717  git add package.json 
+  718  git status
+  719  git commit -m 'added .jshintrc, point grunt, fix errors'
+  720  git status
+  721  git branch
+  722  git push origin working_branch
+  723  git history
+  724  git --help
+  725  git log
+  726  git branch
+  727  git checkout 149961
+  728  git log
+  729  git status
+  730  git checkout working_branch
+  731  git branch
+  732  git log
+  733  git checkout ebd5ec
+  734  git branch
+  735  git checkout working_branch
+  736  git branch
+  737  git log
+  738  git revert 149961
+  739  git log
+  740  git revert 0bb17f 149961
+  741  git status
+  742  git revert --abort
+  743  git status
+  744  git log
+  745  git revert HEAD~1
+  746  git revert --abort
+  747  git revert HEAD~2
+  748  git status
+  749  vim index.js 
+  750  vim test/greetTests.js 
+  751  vim index.js 
+  752  git revert --abort
+  753  git log
+  754  git checkout 149961cbe58f7de101db6c84a3917febc7c1950c
+  755  git checkout -b
+  756  git checkout -b feb_3_sub
+  757  git push origin feb_3_sub
+  758  git status
+  759  git branch
+  760  git pull origin master
+  761  git status
+  762  git branch
+  763  git checkout master
+  764  git branch
+  765  git pull origin master
+  766  grunt
+  767  npm test
+  768  git status
+  769  git branch
+  770  git merge
+  771  git merge feb_3_sub
+  772  git branch
+  773  git merge working_branch master
+  774  git banch
+  775  git branch
+  776  git pull
+  777  git branch
+  778  git pull origin master
+  779  git branch
+  780  cd ..
+  781  ls
+  782  ll
+  783  ls
+  784  cd ..
+  785  cd
+  786  ls
+  787  ls -a
+  788  vim .vimrc
+  789  ls
+  790  cd node-v0.10.35/
+  791  ls
+  792  cd lib
+  793  ls
+  794  cd events.js 
+  795  vim events.js 
+  796  ls
+  797  cd ../..
+  798  ls
+  799  cd Documents/git
+  800  ls
+  801  cd cfa-test-mod-pat/
+  802  ls
+  803  npm test
+  804  grunt
+  805  ls
+  806  cd ..
+  807  ls
+  808  cd cf-cd/
+  809  ls
+  810  mkdir feb_4
+  811  ls
+  812  cd feb_4
+  813  ls
+  814  cd ..
+  815  cd feb_3
+  816  ls
+  817  ls
+  818  node
+  819  cd ..
+  820  cd
+  821  ls
+  822  cd Downloads/
+  823  ls
+  824  cp test.bmp ../Documents/git/cf-cd/feb_4/
+  825  cd ..
+  826  cd Documents/git/cf-cd/
+  827  ls
+  828  cd feb_4/
+  829  ls
+  830  node
+  831  vim textfile.txt
+  832  node
+  833  npm install -g repl.history
+  834  node
+  835  node
+  836  repl.history
+  837  cd
+  838  ls
+  839  ls -a
+  840  vim .node_history 
+  841  node
+  842  repl.history
+  843  ls -a
+  844  vim .node_history 
+  845  repl.history
+  846  node
+  847  vim .node_history 
+  848  node repl.history
+  849  repl.history
+  850  ls
+  851  cd Documents/git/
+  852  ls
+  853  cd cf-cd/
+  854  ls
+  855  cd feb_4/
+  856  ls
+  857  vim events_demo.js
+  858  node events_demo.js textfile.txt 
+  859  vim events_demo.js 
+  860  node events_demo.js textfile.txt 
+  861  vim events_demo.js 
+  862  node events_demo.js textfile.txt 
+  863  vim events_demo.js 
+  864  node events_demo.js 
+  865  node events_demo.js textfile.txt 
+  866  vim events_demo.js 
+  867  node events_demo.js 
+  868  node events_demo.js textfile.txt 
+  869  vim events_demo.js 
+  870  node events_demo.js 
+  871  vim events_demo.js 
+  872  node events_demo.js 
+  873  git status
+  874  git add ./events_demo.js 
+  875  ls
+  876  git add textfile.txt 
+  877  git add test.bmp 
+  878  git status
+  879  cd ..
+  880  git status
+  881  ls
+  882  cd feb_4/
+  883  ls
+  884  cmdhistory
+  885  cmdHistory
+  886  commandhistory
+  887  cmd_history
+  888  commandHistory
+  889  history >> cmd_history
