@@ -7,13 +7,12 @@ var server = http.createServer(function(req, res) {
     'Content-Type': 'text/plain'
   });
   
-  console.log(req.url);
   switch (req.url) {
-    case  '/first_route' : res.write('wow, first route\n');
+    case  '/first_route': res.write('wow, first route\n');
       break;
-    case '/second_route' : res.write('wow, second route\n');
+    case '/second_route': res.write('wow, second route\n');
       break;
-    default : res.write('did not hit a route\nsuch http\n');
+    default : res.write('did not hit a route \nsuch http\n');
   }
 
   res.end('such http\n');
