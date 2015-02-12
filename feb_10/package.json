@@ -1,0 +1,21 @@
+{
+  "name": "feb_9",
+  "version": "0.1.0",
+  "description": "simple server",
+  "main": "simple_http_server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "chai-http": "^1.0.0",
+    "mocha": "^2.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "ian D. mcCunn",
+  "license": "MIT"
+}
