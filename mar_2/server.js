@@ -7,6 +7,8 @@ var notesRoutes = require('./routes/notes_routes');
 mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost/notesapp_development');
 
 var app = express();
+app.use(express.static(__dirname + '/build'));
+
 var router = express.Router();
 
 notesRoutes(router);
