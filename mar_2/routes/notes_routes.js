@@ -4,7 +4,7 @@ var Note = require('../models/Note');
 var bodyparser = require('body-parser');
 
 module.exports = function(app) {
-
+	app.use(bodyparser.json());
 	app.get('/notes', function(req, res) {
 	  Note.find({}, function(err, data) {
 	    if (err) return res.status(500).send({'msg': 'could not retrieve notes'});
@@ -17,9 +17,10 @@ module.exports = function(app) {
 	  newNote.save(function(err, note) {
 	    if (err) {
 	      return res.status(500).send({'msg': 'could note save note'});
-	    } else {
-	      res.json(note);
 	    }
+
+	    res.json(note);
+	    
 	  });
 	});
 
@@ -31,4 +32,12 @@ module.exports = function(app) {
 	    res.json(req.body);
 	  });
 	});
+
+	app.delete('/notes/:id', function(req, res) {
+		Note.remove({_id: req.params.id}, function(err) {
+			if (err) return res.status(500).send({'msg': 'could not delete'});
+			res.json({'msg': 'success'});
+		});
+	});
+
 };

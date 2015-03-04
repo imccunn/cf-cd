@@ -39,5 +39,5 @@ module.exports = function(grunt) {
   });
 
   grunt.registerTask('build', ['clean', 'browserify', 'copy']);
-  grunt.registerTask('test:client', 'browserify:test');
+  grunt.registerTask('build:test', ['browserify:test']);
 };
