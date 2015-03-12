@@ -1,60 +1,31 @@
 'use strict';
 
 module.exports = function(app) {
-  app.controller('notesController', ['$scope', '$http', function($scope, $http) {
+  app.controller('notesController', ['$scope', 'resource', function($scope, resource) {
     $scope.notes = [];
-    $scope.getAll = function() { //will get all notes, can call this from the view 
-      $http({
-        method: 'GET', 
-        url: '/api/v1/notes',
 
-      })
-      .success(function(data) {
+    var Note = resource('notes');
+    $scope.getAll = function() { //will get all notes, can call this from the view 
+      Note.getAll(function(data) {
         $scope.notes = data;
-      })
-      .error(function(data) {
-        console.log(data);
-      });
+      }); 
     };
 
     $scope.create = function(note) {
-      $http({
-        method: 'POST',
-        url: '/api/v1/notes',
-        data: note
-      }) 
-      .success(function(data) {
+      Note.create(note, function(data) {
         $scope.notes.push(data);
-      })
-      .error(function(data) {
-        console.log(data);
       });
     };
     
     $scope.save = function(note) {
-      $http({
-        method: 'PUT',
-        url: '/api/v1/notes/' + note._id,
-        data: note
-      })
-      .success(function() {
-        note.editing = false;
-      })
-      .error(function(data) {
-        console.log(data);
-      });
+     Note.save(note, function() {
+      note.editing = false;
+     });
     };
 
     $scope.remove = function(note) {
-      $http({
-        method: 'DELETE',
-        url: '/api/v1/notes/' + note._id
-      })
-      .success(function() {
+      Note.remove(note, function() {
         $scope.notes.splice($scope.notes.indexOf(note), 1);
-      })
-      .error(function(data) {
-        console.log(data);
       });
     };
 
