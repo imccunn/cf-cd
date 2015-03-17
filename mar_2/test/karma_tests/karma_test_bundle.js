@@ -39,7 +39,7 @@ module.exports = function(app) {
       .error(function(data) {
         console.log(data);
       });
-    };  
+    };
     
     $scope.save = function(note) {
       $http({

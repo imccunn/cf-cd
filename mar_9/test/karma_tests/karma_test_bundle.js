@@ -5,66 +5,43 @@ require("./../../bower_components/angular/angular");
 
 var notesApp = angular.module('notesApp', []);
 
+// services
+require('./services/resource_service')(notesApp);
+
+// controllers
 require('./notes/controllers/notesController')(notesApp);
 
-},{"./../../bower_components/angular/angular":4,"./notes/controllers/notesController":2}],2:[function(require,module,exports){
+// directives
+
+},{"./../../bower_components/angular/angular":5,"./notes/controllers/notesController":2,"./services/resource_service":3}],2:[function(require,module,exports){
 'use strict';
 
 module.exports = function(app) {
-  app.controller('notesController', ['$scope', '$http', function($scope, $http) {
+  app.controller('notesController', ['$scope', 'resource', function($scope, resource) {
     $scope.notes = [];
-    $scope.getAll = function() { //will get all notes, can call this from the view 
-      $http({
-        method: 'GET', 
-        url: '/api/v1/notes',
 
-      })
-      .success(function(data) {
+    var Note = resource('notes');
+    $scope.getAll = function() { //will get all notes, can call this from the view 
+      Note.getAll(function(data) {
         $scope.notes = data;
-      })
-      .error(function(data) {
-        console.log(data);
-      });
+      }); 
     };
 
     $scope.create = function(note) {
-      $http({
-        method: 'POST',
-        url: '/api/v1/notes',
-        data: note
-      }) 
-      .success(function(data) {
+      Note.create(note, function(data) {
         $scope.notes.push(data);
-      })
-      .error(function(data) {
-        console.log(data);
       });
-    };  
+    };
     
     $scope.save = function(note) {
-      $http({
-        method: 'PUT',
-        url: '/api/v1/notes/' + note._id,
-        data: note
-      })
-      .success(function() {
-        note.editing = false;
-      })
-      .error(function(data) {
-        console.log(data);
-      });
+     Note.save(note, function() {
+      note.editing = false;
+     });
     };
 
     $scope.remove = function(note) {
-      $http({
-        method: 'DELETE',
-        url: '/api/v1/notes/' + note._id
-      })
-      .success(function() {
+      Note.remove(note, function() {
         $scope.notes.splice($scope.notes.indexOf(note), 1);
-      })
-      .error(function(data) {
-        console.log(data);
       });
     };
 
@@ -81,6 +58,55 @@ module.exports = function(app) {
 };
 
 },{}],3:[function(require,module,exports){
+'use strict';
+
+module.exports = function(app) {
+  var handleError = function(data) {
+    console.log(data);
+  };
+
+  app.factory('resource', ['#http', function($http) {
+    return function(resourceName) {
+      return {
+        getAll: function(callback) {
+          $http({
+            method: 'GET',
+            url: '/api/v1/' + resourceName
+          })
+          .success(callback)
+          .error(handleError);
+        },
+        create: function(resource, callback) {
+          $http({
+            method: 'POST',
+            url: '/api/v1' + resourceName
+          })
+          .success(callback)
+          .error(handleError);
+        },
+        save: function(resource, callback) {
+          $http({
+            method: 'PUT',
+            url: '/api/v1/' + resourceName + '/' + resource._id,
+            data: resource
+          })
+          .success(callback)
+          .error(handleError);
+        },
+        remove: function(resource, callback) {
+          $http({
+            method: 'DELETE',
+            url: '/api/v1' + resourceName + '/' + rousource._id
+          })
+          .success(callback)
+          .error(handleError);
+        }
+      };
+    };
+  }]);
+};
+
+},{}],4:[function(require,module,exports){
 /**
  * @license AngularJS v1.3.14
  * (c) 2010-2014 Google, Inc. http://angularjs.org
@@ -2478,7 +2504,7 @@ if (window.jasmine || window.mocha) {
 
 })(window, window.angular);
 
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 /**
  * @license AngularJS v1.3.14
  * (c) 2010-2014 Google, Inc. http://angularjs.org
@@ -28660,7 +28686,7 @@ var minlengthDirective = function() {
 })(window, document);
 
 !window.angular.$$csp() && window.angular.element(document).find('head').prepend('<style type="text/css">@charset "UTF-8";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\\:form{display:block;}</style>');
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 'use strict'
 
 require('../../app/js/client');
@@ -28715,4 +28741,4 @@ describe('notes controller', function() {
   });
 });
 
-},{"../../app/js/client":1,"./../../bower_components/angular-mocks/angular-mocks.js":3}]},{},[5]);
+},{"../../app/js/client":1,"./../../bower_components/angular-mocks/angular-mocks.js":4}]},{},[6]);

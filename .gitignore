@@ -1,3 +1,6 @@
 **/node_modules
 **/db
-
+**/test/karma_tests/*_bundle.js
+**/build
+**/karma_test_bundle.js
+**/test_bundle.js
