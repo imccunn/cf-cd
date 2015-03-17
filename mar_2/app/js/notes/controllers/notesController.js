@@ -6,7 +6,7 @@ module.exports = function(app) {
     $scope.getAll = function() { //will get all notes, can call this from the view 
       $http({
         method: 'GET', 
-        url: 'api/v1/notes',
+        url: '/api/v1/notes',
 
       })
       .success(function(data) {
@@ -18,20 +18,18 @@ module.exports = function(app) {
     };
 
     $scope.create = function(note) {
-      console.log('note before send' + JSON.stringify(note));
       $http({
         method: 'POST',
         url: '/api/v1/notes',
         data: note
       }) 
       .success(function(data) {
-        console.log('data on success: ' + JSON.stringify(data));
         $scope.notes.push(data);
       })
       .error(function(data) {
         console.log(data);
       });
-    };  
+    };
     
     $scope.save = function(note) {
       $http({
