@@ -29,7 +29,7 @@ notesApp.config(['$routeProvider', function($routeProvider) {
     templateUrl: 'templates/about.html'
   })
   .when('/signup', {
-    templateUrl: 'templates/users/signup.html'
+    templateUrl: 'templates/users/signup.html',
     controller: 'signupController'
   })
   .when('/', {

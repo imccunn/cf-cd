@@ -2,3 +2,4 @@
 **/db
 **/bower_components
 **/build
+**/*_bundle.js

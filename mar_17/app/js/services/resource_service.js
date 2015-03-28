@@ -8,7 +8,7 @@ module.exports = function(app) {
   var handleError = function(data) {
     this.callback(data);
   }
-  app.factory('resource', ['$http', function($http) {
+  app.factory('resource', ['$http', '$cookies', function($http) {
     return function(resourceName) {
       return {
         getAll: function(callback) {
